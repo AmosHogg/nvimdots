@@ -1,0 +1,25 @@
+{
+    "fori": {
+        "prefix": "fori",
+        "body": [
+            "for (${1:int} ${2:i} = ${3:0}; $2 < ${4:length}; ++$2) {",
+            "\t$0",
+            "}"
+        ],
+        "description": "Code snippet for 'fori' loop"
+    },
+    "example": {
+        "prefix": [
+            "hello"
+        ],
+        "body": [
+            "#include <stdio.h>",
+            "int main(int argc, char* argv[])",
+            "{",
+            "\tprintf(\"hello world\");",
+            "\treturn 0;",
+            "}"
+        ],
+        "description": "create a hello world"
+    }
+}
